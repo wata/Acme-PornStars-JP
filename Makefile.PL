@@ -6,6 +6,7 @@ requires 'Lingua::JA::Moji' => 0.08;
 requires 'Cache::FileCache' => 1.06;
 requires 'XML::Simple'      => 2.18;
 requires 'URI'              => 1.58;
+requires 'Coro'             => 6.01;
 requires 'Furl'             => 0.32;
 
 tests 't/*.t';
