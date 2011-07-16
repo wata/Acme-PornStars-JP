@@ -43,6 +43,7 @@ sub get {
                                  { style => 'passport', ve_type => 'none' } );
                 $actress_info->{year} =
                     $tmp =~ /[（(](?:\[\[)?(\d{4})\s*年(?:\]\])?[)）]/ ? $1 : '';
+                $actress_info->{initial} = $initial;
                 push @actress, $actress_info;
             }
         }
